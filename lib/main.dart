@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/home_page.dart';
 
 void main() {
   runApp(const MainApp());
@@ -17,7 +18,7 @@ class _MainAppState extends State<MainApp> {
 
 
   final List<Widget> _pages = const [
-    Center(child: Text('Inicio')),
+    HomePage(),
     Center(child: Text('Buscar')),
     Center(child: Text('Perfil')),
   ];
